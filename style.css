@@ -1,0 +1,130 @@
+.body {
+  font-family: "Poppins", sans-serif;
+}
+.flaxible-container {
+  display: flex;
+  background-color: #2d25a0;
+  width: 1440px;
+  height: 677px;
+}
+a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: #ffffff;
+  padding: 10px 24px;
+}
+.top-anchor {
+  margin-left: 156px;
+  margin-top: 27px;
+}
+.fa-arrow-right {
+  height: 24px;
+  width: 24px;
+  padding-left: 8px;
+}
+.half-width {
+  width: 50%;
+}
+.top-pic {
+  width: 556.01px;
+  height: 438px;
+  margin-top: 153px;
+}
+.top-font {
+  width: 50%;
+  font-size: 64px;
+  line-height: 80px;
+  margin-top: 207px;
+  margin-left: 156px;
+}
+/* Socend Section */
+.container {
+  margin-left: 180px;
+  margin-right: 210px;
+  margin-top: 70px;
+}
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 33px;
+}
+.player {
+  width: 300px;
+  height: 426px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-picture img {
+  width: 300px;
+  height: 256px;
+}
+.player-details {
+  width: 300px;
+  height: 154px;
+}
+.player-details p {
+  color: #6c6c6c;
+}
+.second-container {
+  margin-left: 180px;
+  margin-right: 210px;
+  margin-top: 27px;
+}
+/* Match Container */
+.match-container {
+  margin-left: 182px;
+  margin-right: 156px;
+  margin-top: 165px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.heilights {
+  width: 466px;
+  height: 340px;
+  margin-top: 59px;
+}
+.heilights p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 24px;
+  color: #6c6c6c;
+}
+.match-picture {
+  width: 567px;
+  height: 427px;
+  margin-left: 69px;
+}
+/* Footer Section */
+footer {
+  margin-top: 158px;
+  width: 483.87px;
+  height: 213px;
+  margin-left: 475px;
+  justify-content: center;
+  align-items: center;
+}
+.logo-football {
+  width: 483.87px;
+  height: 110px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#icon {
+  width: 170px;
+  height: 32px;
+  margin-left: 156.94px;
+  margin-right: 156.94px;
+}
+#copyright {
+  margin-left: 123.94px;
+  margin-right: 123.94px;
+  margin-top: 20px;
+}
+.fa-instagram,
+.fa-dribbble,
+.fa-twitter,
+.fa-youtube {
+  padding-right: 14px;
+  color: #969bab;
+}
