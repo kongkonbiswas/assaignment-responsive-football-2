@@ -7,6 +7,9 @@
   width: 1440px;
   height: 677px;
 }
+.flaxible-container:hover {
+  background-color: gold;
+}
 a {
   text-decoration: none;
   background-color: #e02c6d;
@@ -16,6 +19,10 @@ a {
 .top-anchor {
   margin-left: 156px;
   margin-top: 27px;
+  margin-bottom: 169px;
+}
+.top-anchor:hover {
+  background-color: forestgreen;
 }
 .fa-arrow-right {
   height: 24px;
@@ -29,13 +36,24 @@ a {
   width: 556.01px;
   height: 438px;
   margin-top: 153px;
+  margin-bottom: 86px;
+  margin-right: 140px;
 }
 .top-font {
-  width: 50%;
+  width: 485px;
+  height: 230px;
   font-size: 64px;
   line-height: 80px;
   margin-top: 207px;
   margin-left: 156px;
+  color: #ffffff;
+}
+.top-font:hover {
+  color: red;
+}
+.fa-arrow-right:hover {
+  transform: scale(1.5) rotate(360deg);
+  transition: transform 2s ease-in-out;
 }
 /* Socend Section */
 .container {
@@ -101,10 +119,12 @@ footer {
   width: 483.87px;
   height: 213px;
   margin-left: 475px;
+  margin-right: 481.13px;
+  margin-bottom: 63px;
   justify-content: center;
   align-items: center;
 }
-.logo-football {
+#logo-football {
   width: 483.87px;
   height: 110px;
   align-items: center;
@@ -127,4 +147,90 @@ footer {
 .fa-youtube {
   padding-right: 14px;
   color: #969bab;
+}
+/* For Phone Screen */
+@media only screen and (max-width: 688px) {
+  .team {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .flaxible-container {
+    flex-direction: column;
+    width: 360px;
+    height: 695px;
+  }
+  .top-font {
+    font-size: 36px;
+    margin-top: 112px;
+    margin-left: 16px;
+    margin-right: 66px;
+    margin-bottom: 30px;
+    width: 278px;
+    height: 138px;
+  }
+  .top-anchor {
+    margin-left: 19px;
+    width: 168px;
+    height: 44px;
+  }
+  .top-pic {
+    width: 329px;
+    height: 259.17px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-bottom: 61.83px;
+  }
+  .container {
+    width: 360px;
+    height: 695px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #top-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 47px;
+    margin-bottom: 0px;
+  }
+  .player {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+  .second-container {
+    width: 360px;
+    height: 695px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 847px;
+    margin-bottom: 0px;
+  }
+  .match-container {
+    display: none;
+  }
+  #logo-football {
+    width: 247px;
+    margin-top: 700px;
+    margin-left: 18px;
+    margin-right: 71px;
+  }
+  footer {
+    margin-right: 62px;
+    margin-left: 16px;
+    width: 360px;
+    height: 695px;
+  }
+  #icon {
+    margin-right: 91px;
+    margin-left: 95px;
+  }
+  #copyright {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 62px;
+    margin-right: 62px;
+  }
 }
